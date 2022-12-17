@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+spring:
+  jackson:
+    default-property-inclusion: non_null
+  datasource:
+    url: jdbc:h2:mem:bankDB
+    username: user
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+    show-sql: false
+    open-in-view: false
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO

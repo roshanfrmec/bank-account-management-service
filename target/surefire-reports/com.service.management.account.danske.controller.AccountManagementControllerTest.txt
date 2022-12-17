@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.service.management.account.danske.controller.AccountManagementControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.744 s - in com.service.management.account.danske.controller.AccountManagementControllerTest
